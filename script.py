@@ -9,7 +9,7 @@ DRIVER_PATH = 'path/to/chromedriver'
 EMAIL = ''
 PASSWORD = ''
 
-driver = webdriver.Chrome(DRIVER_PATH
+driver = webdriver.Chrome(DRIVER_PATH)
 
 driver.get(LOGIN_URL)
 
