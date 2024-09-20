@@ -3,9 +3,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
+import os
 
 LOGIN_URL = 'https://www.kijiji.ca/t-login.html'
-DRIVER_PATH = 'path/to/chromedriver'
+DRIVER_PATH =  os.environ['DRIVER_PATH']
 EMAIL = ''
 PASSWORD = ''
 
