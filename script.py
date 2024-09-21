@@ -7,8 +7,8 @@ import os
 
 LOGIN_URL = 'https://www.kijiji.ca/t-login.html'
 DRIVER_PATH =  os.environ['DRIVER_PATH']
-EMAIL = ''
-PASSWORD = ''
+EMAIL = os.environ['EMAIL']
+PASSWORD = os.environ['PASSWORD']
 
 driver = webdriver.Chrome(DRIVER_PATH)
 
